@@ -1,7 +1,7 @@
 <p align="center">
     <img src="WebsocketGo.png" alt="Websocket Go">
 </p>
-ESP8266ServerFoundation MPU6050.
+ESP8266ServerFoundation MPU6050.  Browser/Smart Phone accessible Electronic Level.
 
 - **Free**: open source software.  BE THE SAME.
 - **Dynamic**: Change the default interface, configure the WiFi using SPIFFS filesystem.
