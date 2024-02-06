@@ -27,12 +27,12 @@ ESP8266ServerFoundation MPU6050.
 </p>
 
 **Connect Pins**:
-| **MPU6050**    | **ESP8266** |
-| ------------- | ----------------- |
-| VCC           | 3.3V              |
-| GND           | GND               |
-| SCL           | SCL               |
-| SDA           | SDA               |
+| **MPU6050** | **ESP8266** |
+| ----------- | ----------- |
+| VCC         | 3.3V        |
+| GND         | GND         |
+| SCL         | SCL         |
+| SDA         | SDA         |
 
 
 ## Uploading code to the ESP8266 Development Board
