@@ -27,7 +27,7 @@ ESP8266ServerFoundation MPU6050.
 </p>
 
 **Connect Pins**:
-| **MPU650**    | **Wemos D1 Mini** |
+| **MPU650**    | **ESP8266** |
 | ------------- | ----------------- |
 | VCC           | 3.3V              |
 | GND           | GND               |
