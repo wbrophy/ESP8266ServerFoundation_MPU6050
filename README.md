@@ -48,7 +48,9 @@
 ## Initial accessing the ESP8266ServerFoundation device
 
 - **Serial Monitor**: Access from Arduino IDE.
-  - Accepts 1 Serial input command: `restart`
+  - Serial input commands:
+    - `restart`
+    - `delete [filename]`
 - **WiFi Access Point**: Default ssid = `ESP[device_mac_address]`
   - **Captive Portal**.  Open a web browser and go to any web address.  All redirect to device interface.
 

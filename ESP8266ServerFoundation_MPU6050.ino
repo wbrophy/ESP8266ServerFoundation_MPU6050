@@ -159,13 +159,19 @@ void loop(void)
   // Process Serial Input
   if (Serial.available())
     {
-      //Serial.print("Serial Input-> " + Serial.readString());
       String strSerialInput = Serial.readString();
       strSerialInput.trim();
       String strCommand = strSerialInput.substring(0,strSerialInput.indexOf(" "));
       strCommand.toLowerCase();
+      String strParameters = strSerialInput.substring(strCommand.length()+1);
+      strParameters.trim();
+      
       Serial.println("Serial Input-> " + strSerialInput);
-      if (strCommand == "restart") { ESP.restart(); }
+      if (strCommand == "restart")
+        { ESP.restart(); }
+      
+      if (strCommand == "delete")
+        { Serial.println(deleteFile(strParameters)); }
     }
   
   // Process DNS Requests
