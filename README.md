@@ -90,7 +90,7 @@ Essentially open the web interface and review the source code of each page for e
      "softAP":
 	  {
 	   "ssid":"",
-	   "psk":"",
+	   "password":"",
 	   "channel":1,
 	   "hidden":true,
 	   "max_connection":4
