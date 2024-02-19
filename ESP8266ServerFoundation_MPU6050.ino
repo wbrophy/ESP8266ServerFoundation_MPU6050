@@ -117,7 +117,7 @@ void setup(void)
       Serial.println(APconnect
         (
           (objWiFiConfiguration["softAP"].hasOwnProperty("ssid") == true) && (String(objWiFiConfiguration["softAP"]["ssid"]) != "") ? String(objWiFiConfiguration["softAP"]["ssid"]) : DefaultID(),
-          (objWiFiConfiguration["softAP"].hasOwnProperty("psk") == true) && (String(objWiFiConfiguration["softAP"]["psk"]) != "") ? String(objWiFiConfiguration["softAP"]["psk"]) : "",
+          (objWiFiConfiguration["softAP"].hasOwnProperty("password") == true) && (String(objWiFiConfiguration["softAP"]["password"]) != "") ? String(objWiFiConfiguration["softAP"]["password"]) : "",
           (objWiFiConfiguration["softAP"].hasOwnProperty("hidden") == true) && ((bool)objWiFiConfiguration["softAP"]["hidden"] == true) ? true : false,
           (objWiFiConfiguration["softAP"].hasOwnProperty("maxconnection") == true) && ((int)objWiFiConfiguration["softAP"]["maxconnection"] >= 1) && ((int)objWiFiConfiguration["softAP"]["maxconnection"] <= 8) ? (int)objWiFiConfiguration["softAP"]["maxconnection"] : 4
         ));
