@@ -59,7 +59,7 @@
 
 Essentially open the web interface and review the source code of each page for examples.
 
-- **Delete SPIFFS File**: `/api/deletespiffsfile?file==[filename]`
+- **Delete SPIFFS File**: `/api/deletespiffsfile?file=[filename]`
 - **Edit SPIFFS File**: `/applications/editspiffsfile`
 - **Format SPIFFS**:  `/api/formatspiffs'`
 - **Get Data**:  `/api/getdata`
